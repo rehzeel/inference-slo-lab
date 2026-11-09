@@ -1,0 +1,86 @@
+{
+  "model": "Qwen/Qwen3-0.6B",
+  "endpoint": "http://127.0.0.1:8000/v1/chat/completions",
+  "concurrency": 1,
+  "total_requests": 12,
+  "successful_requests": 12,
+  "wall_time_s": 4.266224416904151,
+  "p50_latency_s": 0.3553173749241978,
+  "p95_latency_s": 0.3560906669590622,
+  "requests_per_s": 2.812791552280313,
+  "output_tokens_per_s": 90.00932967297001,
+  "results": [
+    {
+      "request_id": 0,
+      "success": true,
+      "latency_s": 0.3560906669590622,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 1,
+      "success": true,
+      "latency_s": 0.3553324160166085,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 2,
+      "success": true,
+      "latency_s": 0.35599616705439985,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 3,
+      "success": true,
+      "latency_s": 0.35607762495055795,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 4,
+      "success": true,
+      "latency_s": 0.3547007080633193,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 5,
+      "success": true,
+      "latency_s": 0.3552012499421835,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 6,
+      "success": true,
+      "latency_s": 0.3553173749241978,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 7,
+      "success": true,
+      "latency_s": 0.3545371249783784,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 8,
+      "success": true,
+      "latency_s": 0.3558566670399159,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 9,
+      "success": true,
+      "latency_s": 0.35505450004711747,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 10,
+      "success": true,
+      "latency_s": 0.3551058750599623,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 11,
+      "success": true,
+      "latency_s": 0.355921084061265,
+      "output_tokens": 32
+    }
+  ]
+}
