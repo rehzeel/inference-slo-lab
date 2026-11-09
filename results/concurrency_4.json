@@ -1,0 +1,86 @@
+{
+  "model": "qwen3:0.6b",
+  "endpoint": "http://localhost:11434/v1/chat/completions",
+  "concurrency": 4,
+  "total_requests": 12,
+  "successful_requests": 12,
+  "wall_time_s": 2.607186875073239,
+  "p50_latency_s": 0.8342160831671208,
+  "p95_latency_s": 0.9187959998380393,
+  "requests_per_s": 4.602662016570218,
+  "output_tokens_per_s": 147.28518453024697,
+  "results": [
+    {
+      "request_id": 0,
+      "success": true,
+      "latency_s": 0.7078080840874463,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 1,
+      "success": true,
+      "latency_s": 0.4977572909556329,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 2,
+      "success": true,
+      "latency_s": 0.2886430840007961,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 3,
+      "success": true,
+      "latency_s": 0.9187959998380393,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 4,
+      "success": true,
+      "latency_s": 0.8376699578948319,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 5,
+      "success": true,
+      "latency_s": 0.8360457911621779,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 6,
+      "success": true,
+      "latency_s": 0.8341444157995284,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 7,
+      "success": true,
+      "latency_s": 0.8342160831671208,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 8,
+      "success": true,
+      "latency_s": 0.8341443329118192,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 9,
+      "success": true,
+      "latency_s": 0.8491098750382662,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 10,
+      "success": true,
+      "latency_s": 0.8531169171910733,
+      "output_tokens": 32
+    },
+    {
+      "request_id": 11,
+      "success": true,
+      "latency_s": 0.8532677078619599,
+      "output_tokens": 32
+    }
+  ]
+}
