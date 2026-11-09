@@ -14,12 +14,12 @@ Understand how concurrent inference requests influence latency and throughput.
 
 ## Environment
 
-- Hardware:
-- GPU and available VRAM:
-- Operating system:
-- Inference engine and version:
-- Model:
-- Python version:
+- Hardware: Macbook M3 Pro
+- GPU and available VRAM: 18GB
+- Operating system: MacOS
+- Inference engine and version: Ollama (For now)
+- Model: qwen3:0.6b
+- Python version: Python 3.13.2
 
 ## Experiment
 
